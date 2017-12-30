@@ -1,9 +1,9 @@
 ; fasm example.asm
 ; chmod +x example.bin
 
-include 'includes/elf_x86.inc'
-include 'includes/syscall.inc'
-include 'includes/unistd.inc'
+include 'elf_x86.inc'
+include 'syscall.inc'
+include 'unistd.inc'
 
 empty_section_header = 0x0    ; Offset to section header
 
